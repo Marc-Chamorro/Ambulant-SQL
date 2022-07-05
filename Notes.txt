@@ -1,0 +1,21 @@
+NOTES FOR EACH TABLE
+
+ - Tags
+The path is not needed as it will always be the same
+The value image is just the name, and will be changed acording to the provided default ID, so not necessary to do that much
+The images renamed to the provided value
+
+ - Users
+To create a user manually, need to hash the password
+Default user -> Marc & 12345aA
+hashcode - X7ZN5icLb0D61UiQzLHemvqmE+Ig4lVUHJUvB5+QotDrIxOm89unORxTC82o3KKDyiKl0iLQygwnmmrdqXLLCA==
+password - 30g2BzrgsqVtuDfj0KcXtYo2H6EXKKOjhK1nn013t2p3LADfgFj9LEa0jRCS8SaLBSUlze7ovFxRovuiT3GrzQ==
+
+first check result:
+NaMbvoEd+gWXRqDrL2LX8qvd5H403LU29sPePfe0d9+Z9xI+GqMGmpVVTdBD9p7b4xD4df8yrXZ0sQzz/BP/sQ==
+
+ - From the table Local
+Depending on favourites, comments, images and reviews the value changes (value updated when user opens the shop)
+
+
+
