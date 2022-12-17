@@ -35,7 +35,6 @@ CREATE TABLE tags (
   name varchar(255) NOT NULL,
   tag varchar(255) NOT NULL,
   image varchar(255) default NEWID(),
-  path varchar(255) NOT NULL
 
   --image varchar(255) default NEWID(), --generate random name just in case and rename the image
   --as the path is always the same, it can be configured directly and not necessary to hardcode it
@@ -85,6 +84,9 @@ CREATE TABLE persons (
   creation datetime,
   discount int DEFAULT 0 --precalculate before every discount action and once loaded
 )
+
+ALTER TABLE persons ADD DEFAULT GETDATE() FOR creation
+select * from persons
 
 CREATE TABLE shop (
   id_shop UNIQUEIDENTIFIER CONSTRAINT PK_Shop_Id PRIMARY KEY default NEWID(),
